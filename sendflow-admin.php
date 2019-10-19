@@ -133,6 +133,8 @@ class SendflowAdmin
             <form id="sendflow-admin-form" class="postbox">
                 <div class="form-group inside">
 
+                    <img src="https://media.sendflow.pl/sendflow_logo_WEB_black@512.png" style="height: 50px;">
+
                     <?php
                     /*
                      * --------------------------
