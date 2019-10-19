@@ -6,10 +6,10 @@ class SendflowPublic
 
     public static function init()
     {
-        add_action('wp_head', array(__CLASS__, 'sendflow_header'), 10);
+        add_action('wp_head', array(__CLASS__, 'sendflowHeader'), 10);
     }
 
-    public static function sendflow_header()
+    public static function sendflowHeader()
     {
         $data = self::getData();
 
