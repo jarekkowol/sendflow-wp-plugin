@@ -23,7 +23,7 @@ class SendflowPublic
 var wp_sendflow_worker_directory_path = '" . $fullSdkDirectoryPath . "/sdk/sendflow-worker.js.php';
 !function(e,n,s,t,o){e.sendflow=e.sendflow||function(){(e.sendflow.q=e.sendflow.q||[]).push(arguments)},
 t=n.createElement('script'),o=n.getElementsByTagName('script')[0],
-t.async=1,t.src='//cdn.sendflow.pl/" . $data['website_uid'] . "/library-main.js',
+t.async=1,t.src='//cdn.sendflow.pl/" . $data['website_uid'] . "/library-main.min.js',
 o.parentNode.insertBefore(t,o)}(window,document);
 </script>";
     }
